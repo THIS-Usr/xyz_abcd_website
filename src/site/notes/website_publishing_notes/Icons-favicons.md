@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website-publishing-notes/icons-favicons/","tags":["assumed","formal/category-theory","formal/logic/proof-theory","people","story","gardenEntry"],"noteIcon":"images/Greek_uc_delta_icon.svg","created":"2026-03-26T17:36:07.310+00:00","dg-note-properties":{"tags":["assumed","formal/category-theory","formal/logic/proof-theory","people","story","gardenEntry"],"Links":["[[2024-11-21_23-46-33_Perplexity.ai_In Meaning in Dialogue]]","[[2024-11-21_23-52-13_Perplexity.ai_Briefly explain the sharded DLT proposed for the Xi'an]]","[[Story]]"],"note-icon-1":null}}
+{"dg-publish":true,"permalink":"/website-publishing-notes/icons-favicons/","tags":["assumed","formal/category-theory","formal/logic/proof-theory","people","story"],"noteIcon":"images/Greek_uc_delta_icon.svg","created":"2026-03-26T17:36:07.310+00:00","dg-note-properties":{"tags":["assumed","formal/category-theory","formal/logic/proof-theory","people","story"],"Links":["[[2024-11-21_23-46-33_Perplexity.ai_In Meaning in Dialogue]]","[[2024-11-21_23-52-13_Perplexity.ai_Briefly explain the sharded DLT proposed for the Xi'an]]","[[Story]]"],"note-icon-1":null}}
 ---
 
 
