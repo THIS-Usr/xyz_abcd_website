@@ -16,4 +16,8 @@ Favicon: images/apple-touch-icon.png (32x32)
 Favicon: images/android-chrome-512x512.png
 
 ![images/favicon_io/android-chrome-512x512.png\|529](/img/user/images/favicon_io/android-chrome-512x512.png)
+Favicon: images/Greek_uc_delta_icon.svg.png
+![Greek_uc_delta_icon.svg.png](/img/user/images/Greek_uc_delta_icon.svg.png)
+
+
 
