@@ -20,10 +20,7 @@ in the premise there is no initial assumption. This is indefeasible.
 
 In terms of the subtlety of logical elements contrast this with the way that the turnstile changes direction as found on this website landing page, here [[ΑΒΓΔ.XYZ\|ΑΒΓΔ.XYZ]].
 
-<iframe src="/img/user/resources/01301_sequent_segmentation_corrected_01.pdf#toolbar=0&navpanes=0&view=FitH" width="100%" height="600px"></iframe>
-
-
-![[01301_sequent_segmentation_corrected_01.pdf#toolbar=0&navpanes=0&view=FitH]]
+<iframe src="/img/user/resources/01301_sequent_segmentation_corrected_01.pdf#toolbar=0&navpanes=0&view=FitH" width="100%" height="400px"></iframe>
 
 I come to AI from psychoanalysis, with over three decades of clinical work shaping how I think about language, change, and responsibility, and about a decade as an object‑oriented Java specialist, including teaching software engineering at the University of Greenwich. My goal is to build a neurosymbolic architecture in which agentic AI systems act only as untrusted proposal generators around a formally specified, co‑constructive logic kernel with explicit provenance and experimental, optional cryptographic anchoring. The aim is to give research communities in mental health, AI safety, and software engineering a way to represent and revise their claims, norms, and disagreements as evolving logical structures, adding tools for transparent, auditable reasoning in scientific and clinical practice where assessment of critical risk is essential.
 
