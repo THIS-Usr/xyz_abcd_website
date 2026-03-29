@@ -3,59 +3,46 @@
 ---
 
 
-
+This is a mock-up showing a PDF that highlights the principle that logical elements should be selectable in queries and interim results.
 <?xml version="1.0" encoding="UTF-8"?><svg width="88" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg"> <path d="m1.0424 99 42.958-98h2.4023l40.555 98zm69.03-6.0057-28.616-70.372-30.947 70.372z"/></svg>
 
-# Intelligibility
+# Intelligibility - Defeasibility
 $$\frac{\\\;\\\; \vdash X : \mathrm{Type} \\\quad\\\quad x:X \vdash A(x):\mathrm{Type}\\\;}
      {\vdash \sum_{x:X} A(x) : \mathrm{Type}\\\\}
 $$
 
 Where $\vdash$ means from from this assumption
-and 
+and from the form
 $$
 \frac{\text{premises}}{\text{conclusion}}
 $$
-in the premise there is no initial assumption.
-Contrast this with the way that the turnstile changes direction in [[ΑΒΓΔ.XYZ\|ΑΒΓΔ.XYZ]].
+in the premise there is no initial assumption. This is indefeasible.
 
-<iframe src="/img/user/resources/01301_sequent_segmentation_corrected.pdf" width="100%" height="900px" title="01301_sequent_segmentation_corrected.pdf" style="border:1px solid #ccc;"></iframe>
+In terms of the subtlety of logical elements contrast this with the way that the turnstile changes direction as found on this website landing page, here [[ΑΒΓΔ.XYZ\|ΑΒΓΔ.XYZ]].
 
-My work relates to ARIA’s Mathematics for Safe AI and Safeguarded AI programmes, focusing on the epistemic and communal infrastructures around powerful models.
-I do not develop safety cases, interpretability tools, or training pipelines.
-I am building neurosymbolic architecture.
-I will utilise developments in the Agentic AI arena such as Nemoclaw, Agent Toolkit and small language models. These reference Nvidia, but other models will be compared. 
-Agents act as untrusted proposal generators around a formally specified, co‑constructive logic kernel with explicit provenance and experimental, optional cryptographic anchoring. This is intended to give research communities, here psychoanalysts, AI‑safety practitioners, and software engineers, a way to represent and revise their claims, norms, and disagreements as evolving logical structures, adding tools for transparent, auditable reasoning in scientific and clinical practice.
+<iframe src="/img/user/resources/01301_sequent_segmentation_corrected.00.pdf" width="100%" height="900px" title="01301_sequent_segmentation_corrected.00.pdf" style="border:1px solid #ccc;"></iframe>
 
-AI assistants agents are treated as untrusted proposal generators wrapped around a formally specified proof engine.
-The typed sequent‑calculus core is a co‑constructive proof/refutation kernel that accepts only structured inputs and produces checkable proof objects, while all free‑text interaction is mediated by an “agentic edge” that can suggest but never singularly ratify inferences.
-A provenance layer records formulas, sequents, proofs, and their relations as a graph of “supports/refutes/alternative” links back to source documents, enabling re‑checking any reasoning step. Each agent has its own internal logic and interface, and interactions between agents become compositional transformations between local theories.
-At early stage this could be implemented as an Obsidian‑integrated research tool.
+I come to AI from psychoanalysis, with over three decades of clinical work shaping how I think about language, change, and responsibility, and about a decade as an object‑oriented Java specialist, including teaching software engineering at the University of Greenwich. My goal is to build a neurosymbolic architecture in which agentic AI systems act only as untrusted proposal generators around a formally specified, co‑constructive logic kernel with explicit provenance and experimental, optional cryptographic anchoring. The aim is to give research communities in mental health, AI safety, and software engineering a way to represent and revise their claims, norms, and disagreements as evolving logical structures, adding tools for transparent, auditable reasoning in scientific and clinical practice where assessment of critical risk is essential.
 
-The aim of internal provenance is to understand which artefacts in AI‑assisted inquiry benefit from being tamper‑evident, and which must remain fluid and revisable, operating at scale with corpora and compute budgets that AI‑for‑Science programmes enable.
+The Encode fellowship’s combination of compute, mentorship and access to ARIA‑adjacent ecosystems would let me move from conceptual design to large‑scale experiments. With substantial compute and access to corpora such as Mathematics for Safe AI, Safeguarded AI, and neighbouring AI‑safety, clinical literature and relevant training data, I would use this architecture to map how notions of risk, alignment, harm, and responsibility are introduced, contested, and stabilised across communities. This connects model‑level safety work to the higher‑level question of how societies and expert groups actually reason about, and modify, their processes and beliefs in the context of powerful AI systems.
+
+This fellowship could later grow into an open research commons or, if there is sufficient demand and fit with ARIA’s mission, the nucleus of a focused research organisation dedicated to epistemic and provenance infrastructure for agentic AI.
+
+The technical project I am most proud of is the design of a “logic‑centric” agent architecture that treats AI assistants as untrusted front‑ends to a formally specified proof engine. AI assistant‑agents are wrapped around a typed sequent‑calculus core: a co‑constructive proof/refutation kernel that accepts only structured inputs and produces checkable proof objects, while all free‑text interaction is mediated by an “agentic edge” that can suggest but never alone ratify inferences. A provenance layer, maintaining sequential order, records formulas, sequents, proofs, and their “supports/refutes/alternative” relations back to source documents, so that any reasoning step can be re‑checked. Each agent has its own internal logic and interface, and interactions between agents become compositional transformations between their local theories. At an early stage, this can be prototyped as an Obsidian‑integrated research tool.
+
+I value this work because it demonstrates a concrete neurosymbolic alternative to treating large models as opaque authorities: it shows how to separate suggestion from endorsement, and how to make epistemic commitments explicit and auditable.
 Substantial compute would enable two forms of stress‑test.
 1. Running large‑scale experiments over evolving bodies of work—such as AI‑safety literature or software artefacts—to see how formal guarantees and cryptographic commitments can constrain what AI tools “claim”.
 2. Employing methods like those in Karpathy's Autoresearch (Claude.md manifest) that iterate over alternative engine and prompt configurations, defining success for experimental purposes.
 
-I come to AI from psychoanalysis, with three decades shaping how I think about language, change, and responsibility.
-I was also an OO specialist Java engineer for about a decade, including a year teaching at Greenwich University.
+I would therefore stress‑test this design by running large‑scale experiments over evolving bodies of work (such as AI‑safety literature or software artefacts) to see how formal guarantees and cryptographic commitments constrain what AI tools are allowed to “claim”, and by using autoresearch‑style methods to systematically explore engine and prompt configurations under clearly defined success criteria.
 
-It is ethically unacceptable to use clinical material as data.
-Broadly, I will:
-Focus on public sources: published case write‑ups, debates, and consensual lab studies.
-Core material is David Corfield's Modal Homotopy Type Theory, James Trafford's Meaning in Dialogue and their references, while embracing pioneers like Karl Friston.
-Ingest core literature, as possible.
-Develop intelligibility tools for users.
+I have had a cross‑disciplinary career. I have over thirty years’ experience as a psychoanalytic practitioner, and around ten years as an object‑oriented Java engineer, including teaching software engineering at the University of Greenwich. More recently, my work has brought me into contact with AI‑safety researchers, category theorists, and clinicians interested in computational tools.
 
-Model expert communities as evolving “local topoi”, where each group has its own internal theory and norms, and interactions between groups become morphisms between those structures.
-Then study how concepts, norms, and disagreements move across communities over time, while still respecting necessary ethical and epistemic limits.
-Reasoning patterns (support, refutation, alternative hypotheses, resource trade‑offs) provide intelligibility for communities without collapsing their practices into crude metrics. 
+The project itself is explicitly cross‑disciplinary: it models expert communities as evolving “local topoi”, drawing on category theory, social choice, game theory and information theory, while remaining grounded in the ethical and epistemic constraints of psychoanalytic and clinical practice. I am comfortable translating between conceptual languages (clinical, mathematical, and engineering) and designing structures where different communities’ internal logics can interact without being reduced to a single crude metric.
 
-Study communities: modelled as networks of agents whose claims, challenges, and revision is a pattern of support and refutation.
-The underpinning is category theory, social choice, game and information theory.
-Evolving logical or topos‑like structures with lifetimes that correspond to periods of practical cohesion, can be deprecated when assumptions cease to hold.
+## Know what I want to build
+Use the 12 months to build and stress‑test a “logic‑centric” agentic research assistant, initially as a proof‑of‑concept integrated into tools like Obsidian or similar research environments. The core idea is to separate suggestion from endorsement: language‑model‑based agents can propose claims, links, and arguments, but all logically significant steps must pass through a formally specified, co‑constructive proof/refutation kernel that produces checkable proof objects and explicit provenance. This would allow individual researchers and small teams to see not just what an AI system says, but how its suggestions relate to prior claims, what evidence they rely on, and where the uncertainties and open questions are.
 
-Access substantial compute and large corpora, the ARIA Mathematics for Safe AI and Safeguarded AI material, neighbouring AI‑safety literature, and selected clinical/scientific domains.
-
-The architecture maps how notions of risk, alignment, harm and responsibility are introduced, contested, and stabilised across communities.
-This connects model‑level safety work to the higher‑level question of how societies and expert groups actually reason about, and update processes and beliefs, in the context of powerful AI system use.
+Deliver three things in the year: (1) a minimal, well‑specified logical kernel and provenance schema that can host multiple internal logics (e.g. intuitionistic, co‑constructive, modal); (2) an agent orchestration layer that treats different tools and communities as “local topoi” with their own signatures, so that interactions between them are compositional and inspectable; and (3) a working prototype that can be used on real corpora, starting with AI‑safety, safeguarded‑AI, and related scientific literatures.
+To build a small but solid infrastructure that makes epistemic commitments explicit and auditable, and that can later be scaled up—whether as an open research commons, a specialised safety tool, or the seed of a more formal focused research organisation.
