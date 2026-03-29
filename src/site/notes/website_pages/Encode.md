@@ -7,19 +7,21 @@ This is a mock-up showing a PDF that highlights the principle that logical eleme
 <?xml version="1.0" encoding="UTF-8"?><svg width="88" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg"> <path d="m1.0424 99 42.958-98h2.4023l40.555 98zm69.03-6.0057-28.616-70.372-30.947 70.372z"/></svg>
 
 # Intelligibility - Defeasibility
+#### Dependent Types
 #### Rule 1. Formation
 $$\frac{\\\;\\\; \vdash X : \mathrm{Type} \\\quad\\\quad x:X \vdash A(x):\mathrm{Type}\\\;}
      {\vdash \sum_{x:X} A(x) : \mathrm{Type}\\\\}
 $$
 
-Where $\vdash$ means from this assumption
-and from the form
+Where $\vdash$ means *from this assumption* in following the form
 $$
 \frac{\text{premises}}{\text{conclusion}}
 $$
 where in the premise there is no initial assumption.
 
 No initial assumption is ***indefeasible***.
+
+> Dependent sum formation rule notation source: David Corfield, _Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy_(Oxford University Press, 2020), p. 55.
 
 In terms of the subtlety of logical elements, contrast this with the way the turnstile changes direction on this website's landing page, here [[ΑΒΓΔ.XYZ\|ΑΒΓΔ.XYZ]].
 The following is mock-up output from the parse of a positive sequent tree showing the groups extracted from some of the four rows. I had to edit this by hand as AI and code still makes many errors.
@@ -51,8 +53,6 @@ I value this work because it demonstrates a concrete neurosymbolic alternative t
 Substantial compute would enable two forms of stress‑test.
 1. Running large‑scale experiments over evolving bodies of work—such as AI‑safety literature or software artefacts—to see how formal guarantees and cryptographic commitments can constrain what AI tools “claim”.
 2. Employing methods like those in Karpathy's Autoresearch (Claude.md manifest) that iterate over alternative engine and prompt configurations, defining success for experimental purposes.
-
-I would therefore stress‑test this design by running large‑scale experiments over evolving bodies of work (such as AI‑safety literature or software artefacts) to see how formal guarantees and cryptographic commitments constrain what AI tools are allowed to “claim”, and by using autoresearch‑style methods to systematically explore engine and prompt configurations under clearly defined success criteria.
 
 The project itself is explicitly cross‑disciplinary: it models expert communities as evolving “local topoi”, drawing on category theory, social choice, game theory and information theory, while remaining grounded in the ethical and epistemic constraints of psychoanalytic and clinical practice. I am comfortable translating between conceptual languages (clinical, mathematical, and engineering) and designing structures where different communities’ internal logics can interact without being reduced to a single crude metric.
 
