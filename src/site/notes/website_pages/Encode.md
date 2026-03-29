@@ -28,96 +28,9 @@ The following is mock-up output from the parse of a positive sequent tree showin
 
 ***This is the compiled source for the complete positive sequent tree.***
 
-
-```tikz
-\usepackage{amsmath, amssymb}
-\usepackage{tikz-cd}
-\usetikzlibrary{positioning}
-
-\begin{document}
+![positive_sequent_tree.png](/img/user/resources/positive_sequent_tree.png)
 
 
-% Entailsbar Macro (Parameterized)
-\newcommand{\entailsbar}[4]{% #1 = node name, #2 = height, #3 = vertical offset, #4 = line thickness
-  \ensuremath{\mkern-1mu}% Space before entails-bar
-  \pgfmathsetmacro{\halfheight}{#2/2} % Calculate half the height
-  \draw[thin, line width=#4] (#1.south)++(0.1em+#2/4,#3) ++(0,#2) -- ++(0,-#2); % Left vertical
-  \draw[thin, line width=#4] (#1.south)++(0.1em+#2/4+#2/2,#3) ++(0,#2) -- ++(0,-#2); % Right vertical
-  \draw[thin, line width=#4] (#1.south)++(0.1em+#2/4,#3+\halfheight) -- ++(#2/2,0); % Horizontal
-  \ensuremath{\mkern-1mu}% Space after entails-bar
-}
-
-% Spaced Symbol Macro
-\newcommand{\spacedsym}[1]{\mkern-0.4mu #1 \mkern-0.4mu}  % Adjust 3mu as needed
-
-% Define Node Content Terms (for easier modification)
-\newcommand{\Gpa}{\ensuremath{\scriptstyle\spacedsym{;} \spacedsym{\Gamma^{+}} \spacedsym{,} \spacedsym{\alpha^{+}}}}
-\newcommand{\Gpb}{\ensuremath{\scriptstyle\spacedsym{;} \spacedsym{\beta^{+}}}}
-\newcommand{\Gakahb}{\ensuremath{\scriptstyle\spacedsym{\alpha^{+\# \stackrel{h}{2}}} \spacedsym{\beta^{+}}}}
-\newcommand{\Gaka}{\ensuremath{\scriptstyle\spacedsym{;} \spacedsym{\alpha^{+}}}}
-\newcommand{\Gpbs}{\ensuremath{\scriptstyle\spacedsym{;} \spacedsym{\Gamma^{+}} \spacedsym{,}\spacedsym{\beta^{+}}}}
-\newcommand{\Gps}{\ensuremath{\scriptstyle\spacedsym{;\sigma^{+}}}}
-\newcommand{\Gakabhs}{\ensuremath{\scriptstyle\spacedsym{;} \spacedsym{\beta^{+\# \stackrel{h}{2}}} \spacedsym{\sigma^{+}}}}
-\newcommand{\Gp}{\ensuremath{\scriptstyle\spacedsym{;} \spacedsym{\Gamma^{+}}}}
-\newcommand{\Gs}{\ensuremath{\scriptstyle\spacedsym{;} \spacedsym{\sigma^{+}}}}
-
-\begin{tikzpicture}[scale=1.5, node distance=.09cm, every node/.style={scale=1.2}]
-
-  % *** Row 1 ***
-  % Sequent Group 1.1
-  \node (G11) at (-1.5,0) {\Gpa};
-  \node (G111) at (-1.07,0) {}; % Helper node for entailsbar positioning
-  \entailsbar{G111}{0.3cm}{0.0cm}{0.3pt}
-  % Sequent Group 1.2
-  \node (G12) at (-0.52,0) {\Gpb};
-  % Underline
-  \draw[thin] (-2.1,-0.18) -- (0.1,-0.18);
-
-  % *** Row 2 ***
-  % Sequent Group 2.1
-  \node (G21) at (-1.5,-1) {\Gp};
-  \node (G211) at (-1.35,-.9) {}; % Helper node for entailsbar positioning
-  \entailsbar{G211}{0.3cm}{-0.1cm}{0.3pt}
-  \node (G22) at (-0.3,-0.9) {\Gakahb};
-  % Sequent Group 2.2
-  \node (G23) at (0.8,-1) {\Gp};
-  \node (G231) at (1.0,-.9) {}; % Helper node for entailsbar positioning
-  \entailsbar{G231}{0.3cm}{-0.1cm}{0.3pt}
-  \node (G24) at (1.6,-1) {\Gaka};
-    % Sequent Group 2.3
-  \node (G25) at (2.85,-1) {\Gpbs};
-    \node (G251) at (3.3,-.9) {}; % Helper node for entailsbar positioning
-  \entailsbar{G251}{0.3cm}{-0.1cm}{0.3pt}
-  \node (G26) at (3.9,-1) {\Gps};
-  % Underlines
-  \draw[thin] (-1.9,-1.18) -- (1.9,-1.18);
-  \draw[thin] (2.3,-1.18) -- (4.1,-1.18);
-
-  % *** Row 3 ***
-  % Sequent Group 3.1
-  \node (G31) at (-1.5,-2) {\Gp};
-    \node (G311) at (-1.36,-1.9) {}; % Helper node for entailsbar positioning
-  \entailsbar{G311}{0.3cm}{-0.1cm}{0.3pt}
-  \node (G32) at (-0.82,-2) {\Gpb};
-  % Sequent Group 3.2 
-  \node (G33) at (0.53,-2) {\Gp};
-    \node (G331) at (0.64,-1.9) {}; % Helper node for entailsbar positioning
-  \entailsbar{G331}{0.3cm}{-0.1cm}{0.3pt}
-  \node (G34) at (1.72,-1.9) {\Gakabhs};
-  % Underline
-  \draw[thin] (-1.9,-2.18) -- (2.4,-2.18);
-
-  % *** Row 4 ***
-  % Sequent Group 4.1
-  \node (G41) at (-1.5,-3) {\Gp};
-  \node (G411) at (-1.35,-2.9) {}; % Helper node for entailsbar positioning
-  \entailsbar{G411}{0.3cm}{-0.1cm}{0.3pt}
-  \node (G42) at (-0.82,-3) {\Gs};
-
-\end{tikzpicture}
-\end{document}
-
-```
 Diagram adapted from James Trafford, _Meaning in Dialogue: An Interactive Approach to Logic and Reasoning_ (Springer, 2017), p. 186.
 
 I come to AI from psychoanalysis. With over three decades of clinical work shaping how I think about language, change, and responsibility. In an alternative career that I pursued for about a decade, I was an object‑oriented Java back-end specialist.
