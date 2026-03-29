@@ -30,7 +30,6 @@ The following is mock-up output from the parse of a positive sequent tree showin
 
 ![positive_sequent_tree.png](/img/user/resources/positive_sequent_tree.png)
 
-
 Diagram adapted from James Trafford, _Meaning in Dialogue: An Interactive Approach to Logic and Reasoning_ (Springer, 2017), p. 186.
 
 I come to AI from psychoanalysis. With over three decades of clinical work shaping how I think about language, change, and responsibility. In an alternative career that I pursued for about a decade, I was an object‑oriented Java back-end specialist.
