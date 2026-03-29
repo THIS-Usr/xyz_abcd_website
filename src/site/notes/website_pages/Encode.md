@@ -20,7 +20,7 @@ in the premise there is no initial assumption. This is indefeasible.
 
 In terms of the subtlety of logical elements contrast this with the way that the turnstile changes direction as found on this website landing page, here [[ΑΒΓΔ.XYZ\|ΑΒΓΔ.XYZ]].
 
-<iframe src="resources/01301_sequent_segmentation_corrected.01.pdf" width="100%" height="320px" style="border:none;"></iframe>
+<iframe src="01301_sequent_segmentation_corrected.01.pdf" width="100%" height="320px" style="border:none;"></iframe>
 
 
 ![[01301_sequent_segmentation_corrected.01.pdf#height=320]]
