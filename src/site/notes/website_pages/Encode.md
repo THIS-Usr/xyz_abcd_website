@@ -24,6 +24,7 @@ No initial assumption is ***indefeasible***.
 In terms of the subtlety of logical elements, contrast this with the way the turnstile changes direction on this website's landing page, here [[ΑΒΓΔ.XYZ\|ΑΒΓΔ.XYZ]].
 The following is mock-up output from the parse of a positive sequent tree showing the groups extracted from some of the four rows. I had to edit this by hand as AI and code still makes many errors.
 
+
 <iframe src="/img/user/resources/01301_sequent_segmentation_corrected_01.pdf#toolbar=0&navpanes=0&view=FitH" width="100%" height="400px"></iframe>
 
 ***This is the compiled source for the complete positive sequent tree.***
@@ -34,9 +35,13 @@ Diagram adapted from James Trafford, _Meaning in Dialogue: An Interactive Appro
 
 I come to AI from psychoanalysis. With over three decades of clinical work shaping how I think about language, change, and responsibility. In an alternative career that I pursued for about a decade, I was an object‑oriented Java back-end specialist.
 My roles were in industry, but I also taught software engineering at the University of Greenwich for a year.
+Recently, I have become engaged in a synthesis of interests focused on AI‑safety research, category theory, and various parties, such as clinicians, who want to avail themselves of the benefits of understanding these computational tools.
 My goal is to build a neurosymbolic architecture in which agentic AI systems act only as untrusted proposal generators around a formally specified, co‑constructive logic kernel with explicit provenance and experimental, optional cryptographic anchoring. The aim is to give research communities in mental health, AI safety, and software engineering a way to represent and revise their claims, norms, and disagreements as evolving logical structures, and to add tools for transparent, auditable reasoning in scientific and clinical practice, where the assessment of critical risk is essential.
 
-The Encode fellowship’s combination of compute, mentorship, and access to ARIA‑adjacent ecosystems would enable me to move from conceptual design to large‑scale experiments. With substantial compute and access to corpora such as Mathematics for Safe AI, Safeguarded AI, and neighbouring AI‑safety, clinical literature and relevant training data, I would use this architecture to map how notions of risk, alignment, harm, and responsibility are introduced, contested, and stabilised across communities. This connects model‑level safety work to the higher‑level question of how societies and expert groups actually reason about, and modify, their processes and beliefs in the context of powerful AI systems.
+The Encode fellowship’s combination of compute, mentorship, and access to ARIA‑adjacent ecosystems would enable me to move from conceptual design to large‑scale experiments. With substantial compute and access to corpora through Mathematics for Safe AI, Safeguarded AI, and neighbouring AI‑safety, clinical literature and relevant training data, I would use this architecture to map how notions of risk, alignment, harm, and responsibility are introduced, contested, and stabilised across communities. This connects model‑level safety work to the higher‑level question of how societies and expert groups actually reason about, and modify, their processes and beliefs in the context of powerful AI systems.
+
+The work is with open scientific corpora such as S2ORC/OpenAlex and PubMed Central, focusing on slices related to AI safety, Safeguarded AI, mental health, and formal methods. The process is not a single run, but repeated, comparative passes of using the neurosymbolic pipeline over these corpora—extracting claims, building logical and provenance graphs, and varying the agentic “edge” (models, prompts, orchestration) while keeping the formal kernel fixed. This facilitates the study of how different agent configurations change and how notions of risk, harm, and responsibility are represented across logically modelled communities at scale.
+The logical modelling is isolated, enabling the study of changes to these models.
 
 This fellowship could later grow into an open research commons or, if there is sufficient demand and fit with ARIA’s mission, the nucleus of a focused research organisation dedicated to epistemic and provenance infrastructure for agentic AI.
 
@@ -48,8 +53,6 @@ Substantial compute would enable two forms of stress‑test.
 2. Employing methods like those in Karpathy's Autoresearch (Claude.md manifest) that iterate over alternative engine and prompt configurations, defining success for experimental purposes.
 
 I would therefore stress‑test this design by running large‑scale experiments over evolving bodies of work (such as AI‑safety literature or software artefacts) to see how formal guarantees and cryptographic commitments constrain what AI tools are allowed to “claim”, and by using autoresearch‑style methods to systematically explore engine and prompt configurations under clearly defined success criteria.
-
-I have had a cross‑disciplinary career. I have over thirty years’ experience as a psychoanalytic practitioner, and around ten years as an object‑oriented Java engineer, including teaching software engineering at the University of Greenwich. More recently, my work has brought me into contact with AI‑safety researchers, category theorists, and clinicians interested in computational tools.
 
 The project itself is explicitly cross‑disciplinary: it models expert communities as evolving “local topoi”, drawing on category theory, social choice, game theory and information theory, while remaining grounded in the ethical and epistemic constraints of psychoanalytic and clinical practice. I am comfortable translating between conceptual languages (clinical, mathematical, and engineering) and designing structures where different communities’ internal logics can interact without being reduced to a single crude metric.
 
